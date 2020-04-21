@@ -14,6 +14,10 @@
 		0413A935244B5E7E009C0BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0413A934244B5E7E009C0BEE /* Assets.xcassets */; };
 		0413A938244B5E7E009C0BEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0413A937244B5E7E009C0BEE /* Preview Assets.xcassets */; };
 		0413A93B244B5E7E009C0BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413A939244B5E7E009C0BEE /* LaunchScreen.storyboard */; };
+		0413A944244B5FB3009C0BEE /* Joke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413A942244B5FB3009C0BEE /* Joke+CoreDataClass.swift */; };
+		0413A945244B5FB3009C0BEE /* Joke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413A943244B5FB3009C0BEE /* Joke+CoreDataProperties.swift */; };
+		0413A947244B6055009C0BEE /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413A946244B6055009C0BEE /* EmojiView.swift */; };
+		0413A949244B64CC009C0BEE /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413A948244B64CC009C0BEE /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		0413A937244B5E7E009C0BEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0413A93A244B5E7E009C0BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0413A93C244B5E7E009C0BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0413A942244B5FB3009C0BEE /* Joke+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0413A943244B5FB3009C0BEE /* Joke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0413A946244B6055009C0BEE /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		0413A948244B64CC009C0BEE /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,13 @@
 		0413A92A244B5E7C009C0BEE /* DadJokes */ = {
 			isa = PBXGroup;
 			children = (
+				0413A942244B5FB3009C0BEE /* Joke+CoreDataClass.swift */,
+				0413A943244B5FB3009C0BEE /* Joke+CoreDataProperties.swift */,
+				0413A948244B64CC009C0BEE /* AddView.swift */,
 				0413A92B244B5E7C009C0BEE /* AppDelegate.swift */,
 				0413A92D244B5E7C009C0BEE /* SceneDelegate.swift */,
 				0413A932244B5E7C009C0BEE /* ContentView.swift */,
+				0413A946244B6055009C0BEE /* EmojiView.swift */,
 				0413A934244B5E7E009C0BEE /* Assets.xcassets */,
 				0413A939244B5E7E009C0BEE /* LaunchScreen.storyboard */,
 				0413A93C244B5E7E009C0BEE /* Info.plist */,
@@ -149,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0413A945244B5FB3009C0BEE /* Joke+CoreDataProperties.swift in Sources */,
 				0413A931244B5E7C009C0BEE /* DadJokes.xcdatamodeld in Sources */,
 				0413A92C244B5E7C009C0BEE /* AppDelegate.swift in Sources */,
+				0413A947244B6055009C0BEE /* EmojiView.swift in Sources */,
+				0413A949244B64CC009C0BEE /* AddView.swift in Sources */,
 				0413A933244B5E7C009C0BEE /* ContentView.swift in Sources */,
+				0413A944244B5FB3009C0BEE /* Joke+CoreDataClass.swift in Sources */,
 				0413A92E244B5E7C009C0BEE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
